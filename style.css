@@ -93,12 +93,20 @@ body {
 
 }
 
-.soloved {
-    margin-left: 20px;
+.list {
     font-size: 16px;
     line-height: 22px;
-    list-style: square;
 }
+
+.list li {
+    list-style: none;
+}
+.list li i {
+    font-size: 16px;
+    color: #6b0902;
+    padding: 10px;
+}
+
 
 /* plans style  */
 .plans {
@@ -144,8 +152,8 @@ body {
     width: 1140px;
     height: 300px;
     margin: 50px auto;
-    background-image: url("./images/gradient2.png"), url("./images/watch.png");
-    background-blend-mode: soft-light;
+    background-image: url("./images/gradient1.png"), url("./images/watch.png");
+    background-blend-mode: multiply;
 
 }
 
@@ -170,4 +178,72 @@ body {
     font-size: 20px;
     border: none;
     border-radius: 5px;
+} 
+
+/* footer style  */
+
+.footer{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+    padding: 120px 200px;
+    background-color:  #151414;
+    color: ;
 }
+
+.footer-title{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+}
+
+.footer-descriotion{
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-weight: 400;
+font-size: 16px;
+color: #ffffff;
+}
+
+.footer-call{
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.footer-contact ,a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.last-content{
+    margin-right: 200px;
+}
+
+.footer-title-last{
+    margin-bottom: 25px;
+    font-weight: 700;
+font-size: 20px;
+color: #F8F8F8;
+}
+
+.footer-form ,input[type="email"]{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #151414;
+    color: white;
+}
+
+.footer-form ,input[type="submit"]{
+    width: 150px;
+height: 50px;
+font-size: 20px;
+color: #F15B22;
+}
+
+
+    
